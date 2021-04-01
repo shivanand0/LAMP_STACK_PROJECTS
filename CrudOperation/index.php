@@ -212,7 +212,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                     <th scope="row"><?php echo $sNo; ?></th>
                     <td><?php echo $row['title']; ?></td>
                     <td><?php echo $row['description']; ?></td>
-                    <td><?php echo $row['time_stamp']; ?></td>
+                    <td><?php echo $row['timestamp']; ?></td>
                     <td>
                         <!-- <button type="button" class="btn btn-outline-primary" data-toggle="modal"
                             data-target="#editModal" id="edit">Edit</button> -->
